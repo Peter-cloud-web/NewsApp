@@ -2,4 +2,7 @@
     <string name="app_name">NewsApp</string>
     <string name="no_bookmarks">no_bookmarks</string>
     <string name="retry">Retry</string>
+    <string name="retry_search">retry</string>
+    <string name="no_results_found">No results found</string>
+    <string name="tap_magnifying_glass_to_start_searching">Tap magnifying glass to start Searching</string>
 </resources>
