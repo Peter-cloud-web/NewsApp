@@ -1,4 +1,3 @@
 package com.seanPeters.newsapp.api
 
-class NewsResponse {
-}
+data class NewsResponse (val articles:List<NewsArticleDto>)
