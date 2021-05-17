@@ -27,10 +27,7 @@ object AppModule {
     @Provides
     @Singleton
     fun providesDatabase(app:Application):NewsArticleDatabase =
-        Room.databaseBuilder(app,NewsArticleDatabase::class.java)
+        Room.databaseBuilder(app,NewsArticleDatabase::class.java,"news_article_database")
             .fallbackToDestructiveMigration()
             .build()
-
-
-
 }
